@@ -16,3 +16,8 @@ iOS端轻量化、类Monkey工具：Donkey 🌹
 ```
 ***
 
+## 环境配置
+
+```
+1、Appium安装。（此处可参照【官网：http://appium.io】方法）
+```
