@@ -1,5 +1,5 @@
 # Donkey
-iOS端轻量化、类Monkey工具：Donkey 🌹
+iOS端轻量级、类Monkey工具：Donkey 🌹
 
 ***
 ## 基于Appium、pytest，所谓成也Appium，败也Appium。
@@ -67,5 +67,5 @@ wdalocal_port需要设置不同的端口，appium在一个sever上跑，也可�
 
 #### 其他模块可查看Donkey.py 中的注释，非常详细，修改上面配置后可直接使用。
 ```
-有不明白的地方，欢迎留言~
+有不明白的地方，欢迎留言，欢迎star~
 ```
