@@ -48,7 +48,7 @@ def test_donkey(device_name, udid, wdalocal_port, appium):
                     'platformName': 'iOS',
                     'platformVersion': "12.1",
                     'deviceName': device_name,
-                    'bundleId': 'com.huxiu',
+                    'bundleId': 'com.tent',
                     'udid': udid,
                     'wdaLocalPort': wdalocal_port,
                     'automationName': 'appium',
