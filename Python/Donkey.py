@@ -341,7 +341,7 @@ def back():
 def defend_thread():
 
         try:
-            driver.activate_app('com.huxiu')  # 调起后台app，或者当app崩溃时会启动app
+            driver.activate_app('com.tent')  # 调起后台app，或者当app崩溃时会启动app
             print("\n   【Donkey】守卫进程启动成功... \n")
 
         except :
