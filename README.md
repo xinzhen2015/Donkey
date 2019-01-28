@@ -26,3 +26,11 @@ iOS端轻量化、类Monkey工具：Donkey 🌹
 ```python
 pip3 install pytest
 ```
+3、pytest插件安装
+```
+pip3 install pytest-parallel  
+
+pip3 install pytest-html  
+
+pip3 install pytest-rerunfailures
+```
