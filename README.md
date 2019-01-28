@@ -37,7 +37,7 @@ pip3 install pytest-rerunfailures  （用于用例失败重试）
 
 ## 用法，在终端里输入
 
-```python
+```
 
 pytest Donkey.py --workers auto --tests-per-worker auto --reruns 3 --reruns-delay 1 --html=report.html
 ```
