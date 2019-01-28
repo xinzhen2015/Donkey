@@ -1,4 +1,3 @@
-'''python
 # -*- coding: UTF-8 -*-
 
 import os
@@ -34,9 +33,9 @@ from appium.webdriver.common.touch_action import TouchAction
 
 @pytest.mark.parametrize("device_name, udid, wdalocal_port, appium",
                          [
-                             ("虎嗅测试机iPhone X", "a1bef8664467b9146b9bc7b511049d951dcce327", 5680, '4766'),
+                             ("测试机iPhone X", "a1bef8664467b9146b9bc7b511049d951dcce327", 5680, '4766'),
 
-                             # ("iPhone6S", "4a7fe6672c148956640cfdaff70da48e49f6945c", 5682, '4766'),
+                             # ("测试机iPhone6S", "4a7fe6672c148956640cfdaff70da48e49f6945c", 5682, '4766'),
 
                              # ("测试机iPhone5s", "ed50fe2a082cd8ea8d1ee7bb11ccc017250da180", 5680, '4766'),
 
@@ -349,7 +348,3 @@ def defend_thread():
             print("\n   【☠️Donkey】守卫进程启动失败... \n")
 
 
-
-
-
-'''
