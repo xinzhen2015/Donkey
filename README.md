@@ -37,8 +37,11 @@ pip3 install pytest-html  （用于生成报告：--html=report.html）
 pip3 install pytest-rerunfailures  （用于用例失败重试：--reruns 3 --reruns-delay 1）
 ```
 
-## 用法：在终端里输入
+## 在终端中执行
 
 ```
 pytest Donkey.py --workers auto --tests-per-worker auto --reruns 3 --reruns-delay 1 --html=report.html
 ```
+
+## Donkey模块讲解
+
