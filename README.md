@@ -64,3 +64,5 @@ pytest Donkey.py --workers auto --tests-per-worker auto --reruns 3 --reruns-dela
 
 wdalocal_port需要设置不同的端口，appium在一个sever上跑，也可在不同的sever上跑。
 ```
+
+#### 其他模块可查看Donkey.py 中的注释，非常详细，修改手机信息后可直接使用。
