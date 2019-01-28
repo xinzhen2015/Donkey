@@ -7,7 +7,9 @@ iOS端轻量化、类Monkey工具：Donkey 🌹
 优点：  
 
 ①基于appium，实现方便。  
+
 ②结合pytest，轻松实现多机并发。  
+
 ③屏蔽状态栏不可点击区域（尤其针对iphone刘海屏优化）。
 
 缺点：
@@ -28,11 +30,11 @@ pip3 install pytest
 ```
 3、pytest插件安装
 ```
-pip3 install pytest-parallel  （用于并发）
+pip3 install pytest-parallel  （用于并发：--workers auto --tests-per-worker auto）
 
-pip3 install pytest-html  （用于生成报告）
+pip3 install pytest-html  （用于生成报告：--html=report.html）
 
-pip3 install pytest-rerunfailures  （用于用例失败重试）
+pip3 install pytest-rerunfailures  （用于用例失败重试：--reruns 3 --reruns-delay 1）
 ```
 
 ## 用法：在终端里输入
