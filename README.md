@@ -45,7 +45,7 @@ pytest Donkey.py --workers auto --tests-per-worker auto --reruns 3 --reruns-dela
 
 ## Donkey模块讲解
 
-#### 并行配置
+#### 并发配置
 ```python
 @pytest.mark.parametrize("device_name, udid, wdalocal_port, appium",
                          [
