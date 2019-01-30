@@ -26,7 +26,7 @@ from appium.webdriver.common.touch_action import TouchAction
 
 缺点：
 
-①基于appium，速度上不如略逊于Monkey。
+①基于appium，速度上略逊于Monkey。
 
 '''
 
